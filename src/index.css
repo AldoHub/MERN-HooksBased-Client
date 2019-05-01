@@ -1,0 +1,182 @@
+body {
+  background: #ddd;
+  color: #111;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Varela Round";
+}
+
+body * {
+  transition: all .400s ease-in-out;
+}
+
+nav ul li a {
+  color: #222;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 99;
+  top: 0px;
+  max-width: 1920px;
+  background: #eee;
+  -webkit-box-shadow: 0px 10px 8px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 8px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 8px -13px rgba(0,0,0,0.75);
+ 
+}
+
+nav ul {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  
+}
+
+nav ul li {
+  margin: 0px 10px;
+    
+}
+
+
+header {
+  height: 700px;
+  background: url("./assets/brooke-cagle-195856-unsplash.jpg") center;
+  background-color: rgb(221, 221, 221);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+header h1 {
+  margin: 0px;
+  padding-top: 100px;
+  font-size: 8rem;
+  line-height: 8rem;
+  text-transform: uppercase;
+  width: 40%;
+  font-family: "Anton";
+  padding-left: 120px;
+  
+}
+
+.itemsContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 40%;
+  max-width: 400px;
+  margin: 30px;
+  position: relative;
+  top: -170px;
+ 
+ 
+}
+
+.cover {
+  width: 100%;
+  height: 300px;
+  background-size: 120%;
+  background-position: center;
+ 
+}
+.cover:hover {
+  background-size: 170%;
+ transform: scale(1.1);
+ -webkit-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+}
+
+
+
+section {
+  margin-top: 40px;
+}
+.itemCreation {
+  display: flex;
+  justify-content: space-around;
+}
+form {
+  width: 60%;
+  max-width: 900px;
+ 
+}
+
+form * {
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  display: block;
+}
+
+.control input, .control textarea{
+  background: none;
+  border: 1px solid #999;
+  color: #111;
+  text-indent: 10px;
+  font-size: 1.3rem;
+}
+
+form input[type="submit"]{
+  width: 30%;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+form input[type="submit"]:hover {
+ color: #fff;
+  background: rgb(0, 189, 189);
+  -webkit-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+}
+
+.preview {
+  width: 35%;
+  max-width: 500px;
+  
+}
+
+.preview img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.delete {
+  padding: 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.delete:hover {
+  background: red;
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 18px -6px rgba(0,0,0,0.75);
+}
+
+.banner {
+  background: url("./assets/brooke-cagle-195856-unsplash.jpg") center;
+  background-size: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
